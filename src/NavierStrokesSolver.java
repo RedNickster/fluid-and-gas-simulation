@@ -82,4 +82,8 @@ public class NavierStrokesSolver {
         System.arraycopy(y, 0, x, 0, SIZE);
         System.arraycopy(temp, 0, y, 0, SIZE);
     }
+
+    void densetiStep(double[] dense, double[] densePrev, double[] u, double[] v, double diffusionRate, double dt) {
+        
+    }
 }
