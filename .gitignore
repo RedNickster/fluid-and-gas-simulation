@@ -1,7 +1,17 @@
-/.idea
-.idea/material_theme_project_new.xml
-.idea/misc.xml
-*.xml
-.idea/material_theme_project_new.xml
-/.idea
-*.xml
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/*.log
+
+# Java
+.gradle/
+build/
+out/
+
+# C
+native/build/
+
+# macOS
+.DS_Store
